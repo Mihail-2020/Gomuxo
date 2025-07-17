@@ -138,6 +138,11 @@ body {
 /* Переменные */
 :root {
     --color-light-blue: #EEF1FB;
+    --color-dark-blue-gray: #1A1D30;
+    --color-dark: #000000;
+    --color-orange: #F65606;
+
+    --font-family-base: 'Nexa', sans-serif;
 
     --container-width: 1375px;
     --container-padding-x: 15px;
@@ -146,5 +151,6 @@ body {
 }
 
 body {
-
+  font-family: var(--font-family-base);
+  font-size: 18px;
 }
