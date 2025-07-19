@@ -137,6 +137,7 @@ body {
 
 /* Переменные */
 :root {
+    --header-height: 105px;
     --color-light-blue: #EEF1FB;
     --color-dark-blue-gray: #1A1D30;
     --color-dark: #000000;
@@ -153,4 +154,50 @@ body {
 body {
   font-family: var(--font-family-base);
   font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-dark);
+  font-style: normal;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  border: 0 !important;
+  padding: 0 !important;
+  white-space: nowrap !important;
+  clip-path: inset(100%) !important;
+  clip: rect(0 0 0 0) !important;
+  overflow: hidden !important;
+}
+
+
+.header {
+  padding-inline: 110px;
+  min-height: var(--header-height);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: var(--color-light-blue);
+}
+.header__logo {
+}
+.header__menu {
+}
+.header__menu-list {
+  display: flex;
+  align-items: center;
+  gap: 82px;
+}
+.header__menu-item {
+}
+.heder__menu-link {
+}
+.header__button-register {
 }
