@@ -1,0 +1,53 @@
+@import url(normalize.css);
+
+@font-face {
+    font-family: 'Argue DEMO';
+    src: url('./fonts/ArgueDEMO.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('./fonts/Comfortaa-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('./fonts/Comfortaa-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Переменные */
+:root {
+    --color-bg: #EEF1FB;
+    --color-dark-blue: #1A1D30;
+    --color-orange: #F65606;
+    --color-lavender-purple: #BF6FE1;
+    --color-dark: #000000;
+
+    --border-radius: 30px;
+    --border: 1px solid var(--color-light);
+
+    --font-family-base: 'Comfortaa', sans-serif;
+    /* --font-family-accent: 'Yantramanav', sans-serif; */
+
+    /* --input-height: 54px;
+
+    --container-width: 1300px;
+    --container-padding-x: 15px; */
+
+    --transition-duration: 0.2s;
+/* 
+    --header-height: 90px; */
+}
+
+body {
+    font-family: var(--font-family-base);
+}
