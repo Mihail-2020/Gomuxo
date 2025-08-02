@@ -114,3 +114,8 @@ button {
     background: transparent;
     border: none;
 }
+
+a {
+  text-decoration: none;
+  color: #000;
+}
