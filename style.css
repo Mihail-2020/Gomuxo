@@ -45,6 +45,7 @@
     --color-orange: #F65606;
     --color-lavender-purple: #BF6FE1;
     --color-dark: #000000;
+    --color-border: #a8aebc;
 
     --border-radius: 6px;
     --border: 1px solid var(--color-dark);
@@ -101,10 +102,17 @@ body {
 .button__menu {
   display: none;
 }
-.button__register, .button__menu {
-  padding-inline: 45px;
+.button__register, .button__menu, .button__demo {
+  padding-inline: 44px;
   
   border: var(--border);
+}
+.button__orange {
+  padding-inline: 39px;
+
+  color: var(--color-light);
+
+  background-color: var(--color-orange);
 }
 
 
@@ -179,4 +187,53 @@ body {
     width: 100%;
     padding-inline: auto;
   }
+}
+
+/* HERO */
+.hero {
+  padding-top: 90px;
+  /* height: 100vh; */
+  border: 1px dashed var(--color-border);
+}
+.hero__title-block {
+  margin-bottom: 80px;
+
+  position: relative;
+}
+.hero__title {
+  width: 748px;
+  margin-inline: auto;
+
+  font-family: var(--font-family-title);
+  font-size: 80px;
+}
+.hero__img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.hero__buttons-block {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.button__orange {
+}
+.button {
+}
+.button__demo {
+}
+.button__hover-transparent {
+}
+.hero__statistic-block {
+  color: var(--color-light);
+  background-color: var(--color-dark-blue);
+}
+
+/* STATISTIC */
+.statistic__item {
+}
+.statistic__title {
+}
+.statistic__description {
 }
